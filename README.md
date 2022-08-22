@@ -29,7 +29,7 @@ On-Purchase Failure
  new_task.condition = "On Sign Up"
  
  Example followed is the send_email.
- 1. When task(Sign Up) is created and condition equals the conditional node On Sign-up, an email is sent and a new user is created who owns the task.
+ 1. When task(Sign Up) is created and condition equals the conditional node On Sign-up, time is checked if its between 1 and 5 an email is sent  and a new user is created who owns the task.
  
  
  4. I have put a sample script i.e flow.py which you can run and the above flow will be implemented.  
